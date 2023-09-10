@@ -1,1 +1,1 @@
-console.log("Hello Dockerized app!")
+console.log("Hello Dockerized app of life !")
