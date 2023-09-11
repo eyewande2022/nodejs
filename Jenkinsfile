@@ -7,5 +7,12 @@ pipeline {
       }
     }
 
+    stage('Check Content') {
+      steps {
+        sh '''ls -latr
+'''
+      }
+    }
+
   }
 }
