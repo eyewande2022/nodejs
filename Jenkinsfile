@@ -16,7 +16,7 @@ pipeline {
 
     stage('Docker Build') {
       steps {
-        sh 'sudo docker build -t incredible-page . '
+        sh 'docker build -t incredible-page . '
       }
     }
 
