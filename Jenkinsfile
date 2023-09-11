@@ -28,7 +28,7 @@ pipeline {
 
     stage('Docker Clean up') {
       steps {
-        sh 'docker images -a | grep "pattern" | awk \'{print $3}\' | xargs docker rmi -q'
+        sh 'docker images -a'
       }
     }
 
